@@ -178,7 +178,7 @@ fn main() {
     let client = RpcClient::new(SERVER_URL);
     match &cli.command {
         Some(Commands::ClusterInfo)=> {
-            println!("Get cluster info ");
+            println!("Get cluster info");
             get_cluster_info(&client);
         },
         Some(Commands::Supply)=> {
