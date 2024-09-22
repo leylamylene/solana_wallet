@@ -168,7 +168,7 @@ fn transfer_sol(client: &RpcClient, keypair: &Keypair, to_key: &str, sol_amount:
             thread::sleep(wait_milis);
         },
         Err(e) => {
-            println!("Error transferring sol: {}", e);
+            println!("Error transferring sol : {}", e);
         }
     }
 }
